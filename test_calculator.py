@@ -1,3 +1,7 @@
+# https://github.com/nheyna25225-source/Lab11-NH-KK
+# Partner 1: Nicholas Heyna
+# Partner 2: Kaden King
+
 import unittest
 from calculator import add, sub, div, log
 
@@ -5,12 +9,12 @@ class TestCalculator(unittest.TestCase):
 
      def test_add(self): # 3 assertions
          self.assertEqual(add(1, 2), 3)
-         self.assertEqual(add(-2, 3), -1)
-         self.assertEqual(add(0, 0), -1)
+         self.assertEqual(add(-2, 3), 1)
+         self.assertEqual(add(0, 0), 0)
 
      def test_subtract(self): # 3 assertions
          self.assertEqual(sub(3, 3), 0)
-         self.assertEqual(sub(0, 0), 0)
+         self.assertEqual(sub(0, 5), -5)
          self.assertEqual(sub(5, 4), 1)
 
     ######## Partner 1
