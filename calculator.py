@@ -1,4 +1,5 @@
-import math 
+# https://github.com/nheyna25225-source/Lab11-NH-KK
+import math
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -12,6 +13,9 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def sub(a, b):
+    return subtract(a, b)
+
 def mul(a, b):
     return a * b
 
@@ -24,6 +28,9 @@ def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("invalid values for logarithm")
     return math.log(b, a)
+
+def log(a, b):
+    return logarithm(a, b)
 
 def exp(a, b):
     return a ** b
