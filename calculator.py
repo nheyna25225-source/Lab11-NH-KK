@@ -1,3 +1,7 @@
+# https://github.com/nheyna25225-source/Lab11-NH-KK
+# Partner 1: Nicholas Heyna
+# Partner 2: Kaden King
+
 import math
 
 def add(a, b):
@@ -11,7 +15,7 @@ def mul(a, b):
 
 def div(a, b):
     if a == 0:
-        raise ValueError("invalid values for logarithm")
+        raise ZeroDivisionError("invalid values for logarithm")
     return b / a
 
 def log(a, b):
