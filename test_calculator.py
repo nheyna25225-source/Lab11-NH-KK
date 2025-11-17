@@ -1,7 +1,3 @@
-# https://github.com/nheyna25225-source/Lab11-NH-KK
-# Partner 1: Nicholas Heyna
-# Partner 2: Kaden King
-
 import unittest
 from calculator import add, sub, div, log
 
